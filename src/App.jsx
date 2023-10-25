@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import SideBar from './components/SideBar'
 
 
 function App() {
@@ -81,7 +82,8 @@ function App() {
 
   return (
     <div className='app'>
-      <section className='side-bar'>
+      <SideBar uniqueTitles={uniqueTitles} createNewChat={createNewChat} handleSelectHistory={handleSelectHistory}  />
+      {/* <section className='side-bar'>
         <button onClick={createNewChat}>New chat</button>
         <ul className='history'>
           {uniqueTitles?.map((title, index )=> (
@@ -94,7 +96,7 @@ function App() {
         <nav>
           <p>Made by Themba</p>
         </nav>
-      </section>
+      </section> */}
       <section className='main'>
         {!currentTitle && <h1>JakazaGPT</h1>}
         <ul className='feed'>
