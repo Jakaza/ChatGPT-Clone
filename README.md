@@ -59,9 +59,6 @@ Follow the steps below to set up and run the ChatWiz on your local machine.
 
 To deploy the ChatWiz, you can follow the deployment instructions for your hosting platform. Make sure to set environment variables for your production environment.
 
-## Contributing
-
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) when submitting pull requests.
 
 ## License
 
